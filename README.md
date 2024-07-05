@@ -14,3 +14,5 @@ Detected outliers using IQR method and replaced the enteries with lower bound an
 Applied 5 classificiation algorithms namely Naive Bayes, K nearest neighbours, Random Forest, Logistic Regression and Decision Tree classifier and achieved maximum accuracy in case of Random Forest.
 
 Further to crosscheck if accuracy can be improved further, applied Principle Component Analysis and applied same set of algorithms and there was no change in the accuracy rather it gave maximum accuracy in Logistic Regression
+
+For both the cases, to check the best accuracy achieved, applied hyperpaprameter tuuning.
