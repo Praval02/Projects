@@ -7,3 +7,4 @@ The dataset consists of 768 instances of 9 features such as BMI, Glucose, Blood 
 ### i) Data Preprocessing
 First replaced enteries which are 0 to a form which can be treated as NULL by the compiler.
 Analysed the data by studying boxplot and replaced null values with mean if number of outliers are less, else with median and also removed the column if majority of the values were missing.
+Detected outliers using IQR method and replaced the enteries with lower bound and upper bound using capping
