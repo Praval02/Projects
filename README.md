@@ -9,3 +9,8 @@ First replaced enteries which are 0 to a form which can be treated as NULL by th
 Analysed the data by studying boxplot and replaced null values with mean if number of outliers are less, else with median and also removed the column if majority of the values were missing.
 
 Detected outliers using IQR method and replaced the enteries with lower bound and upper bound using capping
+
+### ii) Training and Testing
+Applied 5 classificiation algorithms namely Naive Bayes, K nearest neighbours, Random Forest, Logistic Regression and Decision Tree classifier and achieved maximum accuracy in case of Random Forest.
+
+Further to crosscheck if accuracy can be improved further, applied Principle Component Analysis and applied same set of algorithms and there was no change in the accuracy rather it gave maximum accuracy in Logistic Regression
